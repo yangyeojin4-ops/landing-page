@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>내 랜딩페이지</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
     <style>
         body {
             margin: 0;
+            padding: 60px 20px;
             font-family: Arial, sans-serif;
+            background: #fafafa;
             text-align: center;
-            padding: 80px 20px;
         }
-        .hero {
-            max-width: 600px;
-            margin: auto;
+        h1 {
+            font-size: 22px;
+            margin-bottom: 40px;
+            color: #333;
         }
-        button {
-            padding: 14px 24px;
-            font-size: 18px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
+        .link-btn {
+            display: block;
+            padding: 14px 20px;
+            margin: 12px auto;
+            max-width: 420px;
             background: black;
             color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 17px;
+            transition: 0.15s;
+        }
+        .link-btn:hover {
+            opacity: 0.85;
         }
     </style>
 </head>
 <body>
-    <div class="hero">
-        <h1>환영합니다!</h1>
-        <p>여기에 서비스 소개 한 줄을 적어요.</p>
-        <button>시작하기</button>
-    </div>
+
+<h1>Links</h1>
+
+<a href="#" class="link-btn" target="_blank">GitHub</a>
+<a href="#" class="link-btn" target="_blank">Notion</a>
+<a href="#" class="link-btn" target="_blank">Twitter</a>
+<a href="#" class="link-btn" target="_blank">Instagram</a>
+<a href="#" class="link-btn" target="_blank">Blog</a>
+
 </body>
 </html>
